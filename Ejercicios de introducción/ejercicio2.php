@@ -1,4 +1,8 @@
-  <?php
+<!-- Revise la documentación oficial de PHP para ver qué información podemos obtener de la
+superglobal $_SERVER. Escribe un script haciendo uso de la variable superglobal $_SERVER que muestre
+lo siguiente: -->
+
+<?php
 
 echo " IP del servidor: ";
 echo $_SERVER['SERVER_ADDR'];

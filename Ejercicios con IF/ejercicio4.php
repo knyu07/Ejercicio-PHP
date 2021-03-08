@@ -1,18 +1,22 @@
+<!-- Escribe un script PHP que realice la simulación de lanzar un dado y muestre una imagen
+con un valor aleatorio entre 1 y 6. 
+Resuelva el ejercicio utilizando la estructura de control if-else -->
+
 <?php
 
-$dado = rand(1, 6);
+$DADO = rand(1, 6);
 
-if ($dado == 1) {
+if ($DADO == 1) {
     echo "<img src='images/cara1.svg'>";
-} elseif ($dado == 2) {
+} elseif ($DADO == 2) {
     echo "<img src='images/cara2.svg'>";
-} elseif ($dado == 3) {
+} elseif ($DADO == 3) {
     echo "<img src='images/cara3.svg'>";
-} elseif ($dado == 4) {
+} elseif ($DADO == 4) {
     echo "<img src='images/cara4.svg'>";
-} elseif ($dado == 5) {
+} elseif ($DADO == 5) {
     echo "<img src='images/cara5.svg'>";
-} elseif ($dado == 6) {
+} elseif ($DADO == 6) {
     echo "<img src='images/cara6.svg'>";
 }
 ?>

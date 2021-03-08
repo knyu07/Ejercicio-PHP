@@ -1,3 +1,6 @@
+<!-- Escribe un script PHP que genere un número aletorio entre 1 y 10, simulando una nota numérica y
+muestre un mensaje indicando la clasificación obtenida teniendo en cuenta los iguientes rasgos: -->
+
 <?php
 
 $NOTA = rand(0, 10)

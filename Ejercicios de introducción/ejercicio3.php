@@ -1,4 +1,7 @@
-  
+<!-- Revise la documentación oficial para conocer todas las variables superglobal que existen.
+Con ayuda de la función print_r muestra el contenido de cada una de las variables superglobal. -->
+
+
 <?php
 
 echo "<h3>\$GLOBALS</h3>";
