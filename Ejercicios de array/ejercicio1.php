@@ -1,4 +1,4 @@
-  <?php
+<?php
 
 // Paso 1. Declaración del array
 $lista = array();
